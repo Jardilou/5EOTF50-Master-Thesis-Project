@@ -6,12 +6,10 @@
 ultralytics/
 
 # Ignore datasets and images
-weights/
 data/
-results/
+third_party/
 datasets/
 images/
-third_party/
 labels/
 DATASETS/
 BACKUP/
