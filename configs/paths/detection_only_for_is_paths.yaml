@@ -1,0 +1,15 @@
+train: 
+  - C:\Users\Work Mode Big Dog\OneDrive - ECAM\Bureau\ERASMUS\PROJECT\CODE\DATASETS\DATASETS FOR FISH DETECTION ONLY FOR IS\images\BezierFusion_1\train
+  - C:\Users\Work Mode Big Dog\OneDrive - ECAM\Bureau\ERASMUS\PROJECT\CODE\DATASETS\DATASETS FOR FISH DETECTION ONLY FOR IS\images\BezierFusion_2\train
+  - C:\Users\Work Mode Big Dog\OneDrive - ECAM\Bureau\ERASMUS\PROJECT\CODE\DATASETS\DATASETS FOR FISH DETECTION ONLY FOR IS\images\DEEPFISH\train
+  - C:\Users\Work Mode Big Dog\OneDrive - ECAM\Bureau\ERASMUS\PROJECT\CODE\DATASETS\DATASETS FOR FISH DETECTION ONLY FOR IS\images\UMT\train
+
+val: 
+  - C:\Users\Work Mode Big Dog\OneDrive - ECAM\Bureau\ERASMUS\PROJECT\CODE\DATASETS\DATASETS FOR FISH DETECTION ONLY FOR IS\images\BezierFusion_1\val
+  - C:\Users\Work Mode Big Dog\OneDrive - ECAM\Bureau\ERASMUS\PROJECT\CODE\DATASETS\DATASETS FOR FISH DETECTION ONLY FOR IS\images\BezierFusion_2\val
+  - C:\Users\Work Mode Big Dog\OneDrive - ECAM\Bureau\ERASMUS\PROJECT\CODE\DATASETS\DATASETS FOR FISH DETECTION ONLY FOR IS\images\DEEPFISH\val
+  - C:\Users\Work Mode Big Dog\OneDrive - ECAM\Bureau\ERASMUS\PROJECT\CODE\DATASETS\DATASETS FOR FISH DETECTION ONLY FOR IS\images\UMT\val
+
+nc: 1
+names:
+  0: fish

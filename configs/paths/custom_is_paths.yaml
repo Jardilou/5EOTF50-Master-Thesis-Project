@@ -1,0 +1,18 @@
+# Custom IS.yaml
+
+train: 
+  - C:\Users\Work Mode Big Dog\OneDrive - ECAM\Bureau\ERASMUS\PROJECT\CODE\DATASETS\DATASETS FOR INSTANCE SEGMENTATION\Deepfish_Segmentation\split_dataset\images\train
+  - C:\Users\Work Mode Big Dog\OneDrive - ECAM\Bureau\ERASMUS\PROJECT\CODE\DATASETS\DATASETS FOR INSTANCE SEGMENTATION\Fish4knowledge\split_dataset\images\train
+  
+val: 
+  - C:\Users\Work Mode Big Dog\OneDrive - ECAM\Bureau\ERASMUS\PROJECT\CODE\DATASETS\DATASETS FOR INSTANCE SEGMENTATION\Deepfish_Segmentation\split_dataset\images\val
+  - C:\Users\Work Mode Big Dog\OneDrive - ECAM\Bureau\ERASMUS\PROJECT\CODE\DATASETS\DATASETS FOR INSTANCE SEGMENTATION\Fish4knowledge\split_dataset\images\val
+  
+
+
+# Update this from 1 to 23
+nc: 1
+
+# Update this list to match your 23 species classes
+names:
+  0: fish

@@ -1,0 +1,49 @@
+# Ignore YOLO weights
+*.pt
+*.onnx
+
+# Ignore the entire ultralytics library if it's too huge
+ultralytics/
+
+# Ignore datasets and images
+weights/
+data/
+results/
+datasets/
+images/
+third_party/
+labels/
+DATASETS/
+BACKUP/
+OUTDATED SCRIPTS BACKUP/
+IMAGES/
+images/
+BACKUP-FOLDERS/
+INFERENCE_RESULTS/
+INFERENCE AND RESULTS ANALYSIS/
+XML ANNOTATIONS/
+figures/
+VISUALIZATION_OUTPUTS/
+# Ignore training outputs/videos
+runs/
+*.mp4
+*.avi
+
+# Ignore Python environments
+venv/
+.env/
+__pycache__/
+# Auto-generated: Ignore files larger than 50MB
+groundingdino_swint_ogc.pth
+sam_b.pt
+val_paths.zip
+yolo11x-cls.pt
+.git/objects/d2/20bf41b51a24ab09777f0cf5aa692d17f4d6ff
+.git/objects/pack/pack-24091051ea6e3c73ea688a2686db4864cb7b78dd.pack
+sam2.1_hiera_large.pt
+EfficientSAM/.git/objects/pack/pack-1c8e205191e078b96732241105ea0693ab53628c.pack
+EfficientSAM/weights/efficient_sam_vits.pt.zip
+mmdetection/.git/objects/pack/pack-811cc8a507de7241157dbbdb0038a487241feb99.pack
+segment-anything-2/.git/objects/pack/pack-576b262b3a41cc333ae47501bdd8e6f6e5b1c4b0.pack
+cfd-yolov12x-1.00.pt
+sam_vit_h_4b8939.pth

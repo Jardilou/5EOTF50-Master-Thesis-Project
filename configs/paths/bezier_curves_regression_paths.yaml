@@ -1,0 +1,18 @@
+train: 
+  - C:\Users\Work Mode Big Dog\OneDrive - ECAM\Bureau\ERASMUS\PROJECT\CODE\DATASETS\DATASETS FOR POSE ESTIMATION\DeepFish\CURRENT\First_batch_Train_Test\images\train
+  - C:\Users\Work Mode Big Dog\OneDrive - ECAM\Bureau\ERASMUS\PROJECT\CODE\DATASETS\DATASETS FOR POSE ESTIMATION\Bézierfusion Dataset 2 Reannotated V4\Train Test\images\train
+  - C:\Users\Work Mode Big Dog\OneDrive - ECAM\Bureau\ERASMUS\PROJECT\CODE\DATASETS\DATASETS FOR POSE ESTIMATION\BézierFusion Dataset 1\CURRENT\train test split\images\train
+  - C:\Users\Work Mode Big Dog\OneDrive - ECAM\Bureau\ERASMUS\PROJECT\CODE\DATASETS\DATASETS FOR POSE ESTIMATION\DeepFish\CURRENT\Empty_training_dataset\images\train
+  - C:\Users\Work Mode Big Dog\OneDrive - ECAM\Bureau\ERASMUS\PROJECT\CODE\DATASETS\DATASETS FOR POSE ESTIMATION\UMT_dataset\CURRENT\UMT V1 First batch Train Test Split\images\train
+val: 
+  - C:\Users\Work Mode Big Dog\OneDrive - ECAM\Bureau\ERASMUS\PROJECT\CODE\DATASETS\DATASETS FOR POSE ESTIMATION\DeepFish\CURRENT\First_batch_Train_Test\images\val
+  - C:\Users\Work Mode Big Dog\OneDrive - ECAM\Bureau\ERASMUS\PROJECT\CODE\DATASETS\DATASETS FOR POSE ESTIMATION\Bézierfusion Dataset 2 Reannotated V4\Train Test\images\val
+  - C:\Users\Work Mode Big Dog\OneDrive - ECAM\Bureau\ERASMUS\PROJECT\CODE\DATASETS\DATASETS FOR POSE ESTIMATION\BézierFusion Dataset 1\CURRENT\train test split\images\val
+  - C:\Users\Work Mode Big Dog\OneDrive - ECAM\Bureau\ERASMUS\PROJECT\CODE\DATASETS\DATASETS FOR POSE ESTIMATION\UMT_dataset\CURRENT\UMT V1 First batch Train Test Split\images\val
+
+# Keypoints: The paper uses 4 points for the Bézier curve
+kpt_shape: [4, 3]       # [Number of points, Dimensions (x,y)]
+flip_idx: [0, 1, 2, 3]  # No flipping needed for simple curve regression
+
+names:
+  0: fish
