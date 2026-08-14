@@ -1,0 +1,12 @@
+train: C:\Users\Work Mode Big Dog\OneDrive - ECAM\Bureau\ERASMUS\PROJECT\CODE\DATASETS\DATASETS
+  FOR INSTANCE SEGMENTATION + POSE ESTIMATION\DEEPFISH Dataset\CURRENT\Head+Tail DEEPFISH
+  Annotations\train_test_split\images\train
+val: C:\Users\Work Mode Big Dog\OneDrive - ECAM\Bureau\ERASMUS\PROJECT\CODE\DATASETS\DATASETS
+  FOR INSTANCE SEGMENTATION + POSE ESTIMATION\DEEPFISH Dataset\CURRENT\Head+Tail DEEPFISH
+  Annotations\train_test_split\images\val
+kpt_shape:
+- 2
+- 3
+names:
+  0: measurable_fish
+  1: unmeasurable_fish

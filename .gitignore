@@ -1,0 +1,34 @@
+# Ignore YOLO weights
+*.onnx
+
+# Ignore the entire ultralytics library if it's too huge
+ultralytics/
+weights/
+results/
+outputs/
+3_keypoints/
+put_aside/
+
+# Ignore datasets and images
+data/
+third_party/
+# Ignore training outputs/videos
+runs/
+*.mp4
+*.avi
+*.mov
+
+# Ignore Python environments
+venv/
+.env/
+__pycache__/
+open3d_env/
+
+# Auto-generated: Ignore files larger than 50MB
+.git/objects/d2/20bf41b51a24ab09777f0cf5aa692d17f4d6ff
+.git/objects/pack/pack-24091051ea6e3c73ea688a2686db4864cb7b78dd.pack
+EfficientSAM/.git/objects/pack/pack-1c8e205191e078b96732241105ea0693ab53628c.pack
+EfficientSAM/weights/efficient_sam_vits.pt.zip
+mmdetection/.git/objects/pack/pack-811cc8a507de7241157dbbdb0038a487241feb99.pack
+segment-anything-2/.git/objects/pack/pack-576b262b3a41cc333ae47501bdd8e6f6e5b1c4b0.pack
+

@@ -1,0 +1,17 @@
+# Path to your dataset folders
+train: C:/Users/Work Mode Big Dog/OneDrive - ECAM/Bureau/ERASMUS/PROJECT/CODE/train_paths.txt
+val: C:/Users/Work Mode Big Dog/OneDrive - ECAM/Bureau/ERASMUS/PROJECT/CODE/val_paths.txt
+# train: 
+#   # - 'C:/Users/Work Mode Big Dog/OneDrive - ECAM/Bureau/ERASMUS/PROJECT/CODE/DATASETS/DATASETS FOR INSTANCE SEGMENTATION + POSE ESTIMATION/DEEPFISH Dataset/CURRENT/Head+Tail_DEEPFISH_Annotations/train_test_split/images/train'
+#   - 'C:/Users/Work Mode Big Dog/OneDrive - ECAM/Bureau/ERASMUS/PROJECT/CODE/DATASETS/DATASETS FOR INSTANCE SEGMENTATION + POSE ESTIMATION/DEEPFISH Dataset/CURRENT/Empty_training_dataset/images/train'
+#   - 'C:/Users/Work Mode Big Dog/OneDrive - ECAM/Bureau/ERASMUS/PROJECT/CODE/DATASETS/DATASETS FOR INSTANCE SEGMENTATION + POSE ESTIMATION/UMT Dataset/CURRENT/Head + Tails UMT Annotation V2/TRAIN-TEST/images/train'
+
+# val: 
+#   # - 'C:/Users/Work Mode Big Dog/OneDrive - ECAM/Bureau/ERASMUS/PROJECT/CODE/DATASETS/DATASETS FOR INSTANCE SEGMENTATION + POSE ESTIMATION/DEEPFISH Dataset/CURRENT/Head+Tail_DEEPFISH_Annotations/train_test_split/images/val'
+#   - 'C:/Users/Work Mode Big Dog/OneDrive - ECAM/Bureau/ERASMUS/PROJECT/CODE/DATASETS/DATASETS FOR INSTANCE SEGMENTATION + POSE ESTIMATION/UMT Dataset/CURRENT/Head + Tails UMT Annotation V2/TRAIN-TEST/images/val'
+# Define the Pose Keypoints
+kpt_shape: [3, 3] # [number_of_points, dimensions(x,y,visibility)]
+
+# Define the Classes
+names:
+  0: fish

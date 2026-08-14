@@ -1,0 +1,15 @@
+train: 
+  - C:\Users\Work Mode Big Dog\OneDrive - ECAM\Bureau\ERASMUS\PROJECT\CODE\data\processed\hainan-bezierfusion\Dataset_1\detection\images\train
+  - C:\Users\Work Mode Big Dog\OneDrive - ECAM\Bureau\ERASMUS\PROJECT\CODE\data\processed\hainan-bezierfusion\Dataset_2\detection\images\train
+  - C:\Users\Work Mode Big Dog\OneDrive - ECAM\Bureau\ERASMUS\PROJECT\CODE\data\processed\deepfish\detection\images\train
+  - C:\Users\Work Mode Big Dog\OneDrive - ECAM\Bureau\ERASMUS\PROJECT\CODE\data\processed\UMT\detection\images\train
+
+val: 
+  - C:\Users\Work Mode Big Dog\OneDrive - ECAM\Bureau\ERASMUS\PROJECT\CODE\data\processed\hainan-bezierfusion\Dataset_1\detection\images\val
+  - C:\Users\Work Mode Big Dog\OneDrive - ECAM\Bureau\ERASMUS\PROJECT\CODE\data\processed\hainan-bezierfusion\Dataset_2\detection\images\val
+  - C:\Users\Work Mode Big Dog\OneDrive - ECAM\Bureau\ERASMUS\PROJECT\CODE\data\processed\deepfish\detection\images\val
+  - C:\Users\Work Mode Big Dog\OneDrive - ECAM\Bureau\ERASMUS\PROJECT\CODE\data\processed\UMT\detection\images\val
+
+nc: 1
+names:
+  0: fish
