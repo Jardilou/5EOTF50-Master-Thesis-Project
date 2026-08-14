@@ -3,12 +3,12 @@
 
 # Ignore the entire ultralytics library if it's too huge
 ultralytics/
-weights/
+# weights/
 results/
 outputs/
 3_keypoints/
 put_aside/
-
+segment-anything-2/
 # Ignore datasets and images
 data/
 third_party/
