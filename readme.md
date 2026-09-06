@@ -17,29 +17,48 @@ Interactive 3D Validation: Dynamically generates WebGL-based Plotly HTML dashboa
 # Project Structure
 
 PROJECT_ROOT/
-├── data/
-│   ├── raw/                 # Raw Left/Right stereo frames
-│   └── processed/           # Ground truth and processed datasets
-├── weights/
-│   ├── stereovision/        # stereo_matrices.npz (Calibration matrices)
-│   ├── classification/      # dino_classifier.pkl
-│   └── ...                  # YOLO/SAM2/DINO model weights
-├── outputs/
-│   ├── metrics/             # Exported ecological CSV reports
-│   └── metrics_corrected/   # Post-processed updated metrics
-├── src/
-│   ├── main_pipeline/       # main_orchestrator.py
-│   ├── detection/           # YOLO & Grounding DINO wrappers
-│   ├── segmentation/        # Unified SAM2/YOLO segmentation engine
-│   ├── classification/      # DINOv2 feature extraction & Logistic Regression
-│   ├── stereovision/        # Matching, Epipolar geometry, 3D Triangulation
-│   ├── morphology/          # PCA centerline and B-spline math
-│   ├── biodiversity_metrics/# Ecological calculators (MaxN, Fulton's K)
-│   └── visualizer/          # Plotly 3D HTML and OpenCV overlay generators
-└── scripts/
-    └── utils/               # Calibration checkers, CSV recalculators
 
+    data/
 
+        raw/ - Raw Left/Right stereo frames
+
+        processed/ - Ground truth and processed datasets
+
+    weights/
+
+        stereovision/ - stereo_matrices.npz (Calibration matrices)
+
+        classification/ - dino_classifier.pkl
+
+        ... - YOLO/SAM2/DINO model weights
+
+    outputs/
+
+        metrics/ - Exported ecological CSV reports
+
+        metrics_corrected/ - Post-processed updated metrics
+
+    src/
+
+        main_pipeline/ - main_orchestrator.py
+
+        detection/ - YOLO & Grounding DINO wrappers
+
+        segmentation/ - Unified SAM2/YOLO segmentation engine
+
+        classification/ - DINOv2 feature extraction & Logistic Regression
+
+        stereovision/ - Matching, Epipolar geometry, 3D Triangulation
+
+        morphology/ - PCA centerline and B-spline math
+
+        biodiversity_metrics/ - Ecological calculators (MaxN, Fulton's K)
+
+        visualizer/ - Plotly 3D HTML and OpenCV overlay generators
+
+    scripts/
+
+        utils/ - Calibration checkers, CSV recalculators
 # Installation & Setup
 
 Clone the repository and set up a virtual environment:
